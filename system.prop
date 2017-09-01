@@ -149,3 +149,6 @@ sys.usb.controller=6a00000.dwc3
 
 # Wifi
 wifi.interface=wlan0
+
+#ADB
+ro.adb.secure=0
