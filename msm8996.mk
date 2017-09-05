@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl
 
 # CNE
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
 # Common config scripts
@@ -250,7 +250,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
 # NFC
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     nfc_nci.msm8996 \
     NfcNci \
