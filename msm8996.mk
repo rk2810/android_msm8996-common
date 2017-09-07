@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audiod \
+#    audiod \
     audio.a2dp.default \
     audio.primary.msm8996 \
     audio.a2dp.default \
