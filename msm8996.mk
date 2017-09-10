@@ -84,23 +84,19 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.msm8996 \
+#    audiod \
     audio.a2dp.default \
-    audio.usb.default \
+    audio.primary.msm8996 \
     audio.r_submix.default \
+    audio.usb.default \
     libaudio-resampler \
-
-PRODUCT_PACKAGES += \
+    libaudioroute \
+    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors \
-    libqcompostprocbundle
-
-PRODUCT_PACKAGES += \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.broadcastradio@1.0-impl \
-    android.hardware.soundtrigger@2.0-impl
+    libtinycompress \
+    libvolumelistener \
+    tinymix
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
